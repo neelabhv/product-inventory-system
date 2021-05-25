@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+nav{
+  padding: 15px;
+  background: linear-gradient(grey,white);
+}
+.nav-button{
+  display: inline;
+  text-decoration: none;
+  margin:5px;
+  padding: 5px;
+  border: 1px solid black;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
