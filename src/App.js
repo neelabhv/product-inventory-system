@@ -15,7 +15,6 @@ function App() {
           <div className="nav-button"><Link to="/updateproduct" style={{ textDecoration: 'none' }}>Update Product</Link></div>
           <div className="nav-button"><Link to="/deleteproduct" style={{ textDecoration: 'none' }}>Delete Product</Link></div>
           <div className="nav-button"><Link to="/contact" style={{ textDecoration: 'none' }}>Contact Us</Link></div>
-          
         </nav>
         <Switch>
           <Route path="/addproduct" component={AddProduct}></Route>

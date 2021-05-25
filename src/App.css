@@ -5,7 +5,7 @@
 }
 nav{
   padding: 15px;
-  background: linear-gradient(grey,white);
+  background: linear-gradient(to left,rgba(121, 167, 190, 0.301),rgb(117, 108, 202));
 }
 .nav-button{
   display: inline;
